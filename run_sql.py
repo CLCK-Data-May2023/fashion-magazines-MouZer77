@@ -28,7 +28,7 @@ def get_paths() -> tuple:
     parser = argparse.ArgumentParser()
     parser.add_argument("db", nargs="?",
                         help="path to the sqlite3 database file", 
-                        default="db/fashion_magazines.db")
+                        default="db/fashion_magazines.db"))
     parser.add_argument("sql", nargs="?",
                         help="path to the file containing the sql query",
                         default="sql/fashion_magazines.sql")
